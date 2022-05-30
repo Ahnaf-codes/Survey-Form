@@ -1,6 +1,45 @@
-body
- {
-    text-transform: capitalize;
-    padding: 0px;
-    margin: 0px;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+
+body {
+	text-transform: capitalize;
+	padding: 0px;
+	margin: 0px;
+	font-size: 62.5%;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+	font-weight: 300;
+}
+
+header {
+	text-align: center;
+}
+
+h1,
+h2 {
+	font-family: "Inter";
+	font-weight: 700;
+}
+
+#description {
+	font-style: italic;
+}
+
+#survey-form {
+	max-width: 500px;
+	margin: 10px auto;
+    padding: .5rem;
+	background-color: #3cdeff85;
+    border-radius: 10px;
+}
+
+fieldset {
+	border: #6fc9e785 solid 2px;
+    border-radius: 10px;
+}
+
+#name,
+#email,
+#number {
+	max-width: 400px;
+	width: 100%;
 }
