@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
 
-
+:root {
+	font-size: 62.5%;
+}
 
 body {
 	text-transform: capitalize;
 	position: relative;
     padding: 0;
 	margin: 0;
-	font-size: 62.5%;
 	box-sizing: border-box;
 	font-family: "Inter", sans-serif;
 	font-weight: 300;
@@ -23,7 +24,7 @@ body {
 
 header {
 	text-align: center;
-    margin: 0;
+    margin: 10px;
 }
 
 h1,
@@ -33,11 +34,14 @@ h2 {
 }
 
 #title {
-	margin-top: 10px;
+	margin: 10px;
+	font-size: 3.5rem;
 }
 
 #description {
 	font-style: italic;
+	font-size: 2rem;
+	margin: 10px;
 }
 
 #survey-form {
@@ -53,9 +57,17 @@ fieldset {
 	border-radius: 10px;
 }
 
+legend {
+	font-size: 1.6rem;
+}
+
 #name,
 #email,
 #number {
 	max-width: 400px;
 	width: 100%;
+}
+
+label {
+	font-size: 1.6rem;
 }
