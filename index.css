@@ -12,22 +12,13 @@ body {
 	font-family: "Inter", sans-serif;
 	font-weight: 300;
     overflow-x: hidden;
-}
-
-#wrapper {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: rgb(101, 92, 255);
+	/* background: rgb(101, 92, 255); */
 	background: linear-gradient(
 		200deg,
 		rgba(101, 92, 255) 5%,
 		rgba(0, 212, 255, 1) 55%
 	);
-    background-position: center;
-    height: 100vh;
+	min-height: 100vh;
 }
 
 header {
